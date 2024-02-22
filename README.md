@@ -39,7 +39,9 @@ Obtain an API key from OpenAI and add it to the .env file in the project directo
 To use the MultiPDF Chat App, follow these steps:
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the .env file.
 2. Run the main.py file using the Streamlit CLI. Execute the following command:
+     ```bash
      streamlit run app.py
+     ```
 4. The application will launch in your default web browser, displaying the user interface.
 5. Load multiple PDF documents into the app by following the provided instructions.
 6. Ask questions in natural language about the loaded PDFs using the chat interface.
